@@ -21,3 +21,9 @@ def output_array (array)
     counter += 1 
   end
 end
+
+def return_string_array (array)
+  new_array = []
+  new_array.push (array.length.to_s)
+  return new_array
+end
